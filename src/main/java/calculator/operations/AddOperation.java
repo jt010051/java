@@ -1,8 +1,8 @@
 package calculator.operations;
 
 public final class AddOperation {
-	double a = 0;
-	double b = 0;
+	private double a = 0;
+	private static double b = 0;
 public void setA(double numberA){
 	this.a=numberA;
 }

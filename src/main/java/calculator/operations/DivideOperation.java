@@ -3,7 +3,7 @@ package calculator.operations;
 final public class DivideOperation {
 
 	double a = 0;
-	double b = 0;
+	private double b = 0;
 	
 	public void setA(double numberA) {
 		this.a = numberA;

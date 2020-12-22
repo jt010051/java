@@ -1,9 +1,9 @@
 package calculator.operations;
 
-public class MultiplyOperation {
+public final class MultiplyOperation {
 
-	double a = 0;
-	double b = 0;
+	private double a = 0;
+	static double b = 0;
 	
 	public void setA(double numberA) {
 		this.a = numberA;
